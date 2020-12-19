@@ -55,7 +55,7 @@ The ODOT data contains "Manner of Collision" for BMVCs. In the Oregon coding, tu
 Turning movement and angle collisions together account for 50% of fatal BMVCs, making them the most common type if we consider them in combination, as most other states do. Rear-end collisions account for 30%, and another 6% are sideswipe - same direction. Head-on and sideswipe - opposite direction collisions, both involving one party on the wrong side of the road, together account for 12% of fatalities. (These figures are based on the database coding. I did a closer examination of fatal collisions, described below, which revealed that there were two collisions, one angle and one fixed object, that could be better classified as rear-end.)
 
 **Manner of Collision: Fatal Crashes**
-![Collision Type](/images/CollisionType_Fatal.png)
+![Collision Type - Fatal](/images/CollisionType_Fatal.png)
 
 #### Intersection Collisions: Crossing or Parallel Paths
 Intersections account for 67% of BMVCs, and driveways for another 19%, for a combined total of 86% -- an even higher share than the 72% I found in the Pennsylvania data. Although only 14% of crashes occurred between intersections, 59% of *fatal* crashes were at midblock locations, a bit higher than in Pennsylvania, where 50% were midblock.
@@ -73,14 +73,14 @@ Drivers turning right from a driveway, stop sign, or red light may look only to 
 The true share of wrong-way bicycling in crossing path crashes may be even larger. I have analyzed Florida and North Carolina bicycle crash data, which each include a field that asks only about bicyclist direction. When the motorist was entering the road from a commercial driveway or stop sign, or turning right on red, the bicyclist was facing traffic in 64% of the collisions in North Carolina and in 78% in Florida.    
 
 **Crossing Path Collisions at Intersections and Driveways By Motorist Movement and Bicyclist Direction**
-![Crossing Paths at Intersections: Bicyclist Direction by Motorist Movement](/images/BicyclistDirectionByMotoristMovement.png)
+![Crossing Paths at Intersections: Bicyclist Direction by Motorist Movement](/images/BicyclistDirectionbyMotoristMovement.png)
 
 Motorist yielding behavior may also be affected by the position of the bicyclist: roadway, bike lane, or sidewalk. Non-Motorist Location provides bicyclist position *at the time of the collision*. Sidewalk bicyclists might collide with motorists at driveways that cross the sidewalk, or at intersections where the sidewalk becomes a crosswalk. Prior to 2015, bicyclists using a bike lane who collide with a motorist within an intersection were coded as using the roadway; subsequently, a "bike lane at intersection" category was added. For this analysis we restrict the data to 2015 and later in order to more accurately measure bicyclist position. The following figure shows that 60% of bicyclists who failed to yield were approaching on the roadway, 32% in a sidewalk or crosswalk, and 7% in a bike lane. However, when the motorist failed to yield ("No bicyclist cause"), only 31% of bicyclists were using the roadway.  
 
 What explains this difference? Wrong-way bicycling is more common for bicyclists using sidewalks and bike lanes in this data. But the disparity in bicyclist position is apparent even when we filter the data to include only bicyclists operating in the direction of traffic: 66% were using the roadway when the bicyclist failed to yield vs. 36% when there was no bicyclist cause. The explanation may be that when motorists are approaching a red signal  seeing no pedestrians *in* the crosswalk, they enter the crosswalk before stopping, ending up in the path of sidewalk bicyclists *about to enter* the crosswalk, but not in the way of bicyclists approaching on the roadway. When turning right on red or at a stop sign or driveway, motorists need to move far enough into the road to see approaching traffic, typically beyond the crosswalk and possibly encroaching into the bike lane. These factors may explain why bicyclists using bike lanes and sidewalks are overrepresented in motorist-caused crashes compared to bicyclist-caused crashes.
 
 **Crossing Path Collisions at Intersections and Driveways 2015-2018 by Bicyclist Position and Cause**
-![Crossing Paths at Intersections: Bicyclist Cause by Position](/images/BicyclistPositionByCause.png)
+![Crossing Paths at Intersections: Bicyclist Cause by Position](/images/BicyclistPositionbyCause.png)
 
 
 **Parallel Paths at Intersections and Driveways**
